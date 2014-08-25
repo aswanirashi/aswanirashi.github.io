@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Chess engines</title>
+<link rel="stylesheet" type="text/css" href="C.css">
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jquery.syntax.js"></script><script type="text/javascript" src="yelp.js"></script>
+</head>
+<body><div class="page" role="main">
+<div class="header"><div class="trails" role="navigation"><div class="trail">
+<a class="trail" href="index.html" title="GNOME Chess"><span class="media"><span class="media media-image"><img src="figures/logo.png" class="media media-inline" alt=""></span></span></a> › <a class="trail" href="index.html#advanced" title="Advanced">Advanced</a> » </div></div></div>
+<div class="body">
+<div class="hgroup"><h1 class="title"><span class="title">Chess engines</span></h1></div>
+<div class="region">
+<div class="contents">
+<p class="p"><span class="app">GNOME Chess</span> supports any Chess Engine Communication Protocol
+  or Universal Chess Interface compatible chess engines. You can edit the
+  <span class="file">gnome-chess/data/engines.conf</span> for the desired engine.</p>
+<div class="steps"><div class="inner"><div class="region"><ol class="steps">
+<li class="steps"><p class="p">To edit the file for just yourself, copy it from
+    <span class="file">$(datadir)/gnome-chess/engines.conf</span> to
+    <span class="file">$XDG_CONFIG_HOME/gnome-chess/engines.conf</span>. These will usually
+    be <span class="file">/etc/gnome-chess/engines.conf</span> and
+    <span class="file">~/.config/gnome-chess/engines.conf</span>, but some distros are
+    different.</p></li>
+<li class="steps"><p class="p">To edit for all users using root privledges, you can edit
+    <span class="file">$(datadir)/gnome-chess/engines.conf</span> directly.</p></li>
+<li class="steps"><p class="p">You can use the delay-before-move option to select how long
+    <span class="app">Chess</span> should wait before reporting the human's move to the engine.
+    The default value of delay is 2 seconds.</p></li>
+<li class="steps"><p class="p"><span class="app">Chess</span> can pass options to a UCI engine each time the engine
+    is told to move. To know which options it supports, you can check the
+    engine's documentation.</p></li>
+<li class="steps"><p class="p">The other options get passed to the chess engine when the game
+    starts.</p></li>
+<li class="steps"><p class="p">You can also pass different options to the engine binary depending
+    on difficulty level, see the GNU Chess and Phalanx configurations to know
+    more.</p></li>
+</ol></div></div></div>
+</div>
+<div class="sect sect-links" role="navigation">
+<div class="hgroup"></div>
+<div class="contents"><div class="links guidelinks"><div class="inner">
+<div class="title"><h2><span class="title">More Information</span></h2></div>
+<div class="region"><ul><li class="links "><a href="index.html#advanced" title="Advanced">Advanced</a></li></ul></div>
+</div></div></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer"><div class="sect about ui-expander" role="contentinfo">
+<div class="yelp-data yelp-data-ui-expander" data-yelp-expanded="false"></div>
+<div class="inner">
+<div class="hgroup"><h2><span class="title">About</span></h2></div>
+<div class="region"><div class="contents">
+<div class="aboutblurb authors">
+<div class="title"><span class="title">Written By</span></div>
+<ul class="credits"><li>Rashi Aswani</li></ul>
+</div>
+<div class="aboutblurb license">
+<div class="title"><span class="title">License</span></div>
+<div class="contents"><p class="p">This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit <span class="link">http://creativecommons.org/licenses/by-sa/3.0/</span> or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p></div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></body>
+</html>
